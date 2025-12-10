@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\siriluck.rattanapong\\source\\repos\\GrundlagenAusgaben\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CAEDFF20-DC37-4F78-B9EF-2C255AD54466}|GrundlagenAusgaben.csproj|c:\\users\\siriluck.rattanapong\\source\\repos\\grundlagenausgaben\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAEDFF20-DC37-4F78-B9EF-2C255AD54466}|GrundlagenAusgaben.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAEDFF20-DC37-4F78-B9EF-2C255AD54466}|GrundlagenAusgaben.csproj|c:\\users\\siriluck.rattanapong\\source\\repos\\grundlagenausgaben\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAEDFF20-DC37-4F78-B9EF-2C255AD54466}|GrundlagenAusgaben.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 324,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\siriluck.rattanapong\\source\\repos\\GrundlagenAusgaben\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\siriluck.rattanapong\\source\\repos\\GrundlagenAusgaben\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAhwCgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T10:28:40.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Entwurf]",
+              "DocumentMoniker": "C:\\Users\\siriluck.rattanapong\\source\\repos\\GrundlagenAusgaben\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\siriluck.rattanapong\\source\\repos\\GrundlagenAusgaben\\Form1.cs [Entwurf]",
+              "RelativeToolTip": "Form1.cs [Entwurf]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T10:27:40.7Z",
+              "EditorCaption": " [Entwurf]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+C:\Users\siriluck.rattanapong\source\repos\GrundlagenAusgaben\bin\Debug\net8.0-windows\GrundlagenAusgaben.exe
+C:\Users\siriluck.rattanapong\source\repos\GrundlagenAusgaben\bin\Debug\net8.0-windows\GrundlagenAusgaben.deps.json
+C:\Users\siriluck.rattanapong\source\repos\GrundlagenAusgaben\bin\Debug\net8.0-windows\GrundlagenAusgaben.runtimeconfig.json
+C:\Users\siriluck.rattanapong\source\repos\GrundlagenAusgaben\bin\Debug\net8.0-windows\GrundlagenAusgaben.dll
+C:\Users\siriluck.rattanapong\source\repos\GrundlagenAusgaben\bin\Debug\net8.0-windows\GrundlagenAusgaben.pdb
+C:\Users\siriluck.rattanapong\source\repos\GrundlagenAusgaben\obj\Debug\net8.0-windows\GrundlagenAusgaben.Form1.resources
+C:\Users\siriluck.rattanapong\source\repos\GrundlagenAusgaben\obj\Debug\net8.0-windows\GrundlagenAusgaben.csproj.GenerateResource.cache
+C:\Users\siriluck.rattanapong\source\repos\GrundlagenAusgaben\obj\Debug\net8.0-windows\GrundlagenAusgaben.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\siriluck.rattanapong\source\repos\GrundlagenAusgaben\obj\Debug\net8.0-windows\GrundlagenAusgaben.AssemblyInfoInputs.cache
+C:\Users\siriluck.rattanapong\source\repos\GrundlagenAusgaben\obj\Debug\net8.0-windows\GrundlagenAusgaben.AssemblyInfo.cs
+C:\Users\siriluck.rattanapong\source\repos\GrundlagenAusgaben\obj\Debug\net8.0-windows\GrundlagenAusgaben.csproj.CoreCompileInputs.cache
+C:\Users\siriluck.rattanapong\source\repos\GrundlagenAusgaben\obj\Debug\net8.0-windows\GrundlagenAusgaben.dll
+C:\Users\siriluck.rattanapong\source\repos\GrundlagenAusgaben\obj\Debug\net8.0-windows\refint\GrundlagenAusgaben.dll
+C:\Users\siriluck.rattanapong\source\repos\GrundlagenAusgaben\obj\Debug\net8.0-windows\GrundlagenAusgaben.pdb
+C:\Users\siriluck.rattanapong\source\repos\GrundlagenAusgaben\obj\Debug\net8.0-windows\GrundlagenAusgaben.genruntimeconfig.cache
+C:\Users\siriluck.rattanapong\source\repos\GrundlagenAusgaben\obj\Debug\net8.0-windows\ref\GrundlagenAusgaben.dll
