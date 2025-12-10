@@ -1,0 +1,16 @@
+C:\Users\siriluck.rattanapong\source\repos\HalloWelt\bin\Debug\net8.0-windows\HalloWelt.exe
+C:\Users\siriluck.rattanapong\source\repos\HalloWelt\bin\Debug\net8.0-windows\HalloWelt.deps.json
+C:\Users\siriluck.rattanapong\source\repos\HalloWelt\bin\Debug\net8.0-windows\HalloWelt.runtimeconfig.json
+C:\Users\siriluck.rattanapong\source\repos\HalloWelt\bin\Debug\net8.0-windows\HalloWelt.dll
+C:\Users\siriluck.rattanapong\source\repos\HalloWelt\bin\Debug\net8.0-windows\HalloWelt.pdb
+C:\Users\siriluck.rattanapong\source\repos\HalloWelt\obj\Debug\net8.0-windows\HalloWelt.Form1.resources
+C:\Users\siriluck.rattanapong\source\repos\HalloWelt\obj\Debug\net8.0-windows\HalloWelt.csproj.GenerateResource.cache
+C:\Users\siriluck.rattanapong\source\repos\HalloWelt\obj\Debug\net8.0-windows\HalloWelt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\siriluck.rattanapong\source\repos\HalloWelt\obj\Debug\net8.0-windows\HalloWelt.AssemblyInfoInputs.cache
+C:\Users\siriluck.rattanapong\source\repos\HalloWelt\obj\Debug\net8.0-windows\HalloWelt.AssemblyInfo.cs
+C:\Users\siriluck.rattanapong\source\repos\HalloWelt\obj\Debug\net8.0-windows\HalloWelt.csproj.CoreCompileInputs.cache
+C:\Users\siriluck.rattanapong\source\repos\HalloWelt\obj\Debug\net8.0-windows\HalloWelt.dll
+C:\Users\siriluck.rattanapong\source\repos\HalloWelt\obj\Debug\net8.0-windows\refint\HalloWelt.dll
+C:\Users\siriluck.rattanapong\source\repos\HalloWelt\obj\Debug\net8.0-windows\HalloWelt.pdb
+C:\Users\siriluck.rattanapong\source\repos\HalloWelt\obj\Debug\net8.0-windows\HalloWelt.genruntimeconfig.cache
+C:\Users\siriluck.rattanapong\source\repos\HalloWelt\obj\Debug\net8.0-windows\ref\HalloWelt.dll
