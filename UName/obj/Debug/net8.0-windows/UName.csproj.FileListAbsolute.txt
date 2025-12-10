@@ -1,0 +1,16 @@
+C:\Users\siriluck.rattanapong\source\repos\UName\bin\Debug\net8.0-windows\UName.exe
+C:\Users\siriluck.rattanapong\source\repos\UName\bin\Debug\net8.0-windows\UName.deps.json
+C:\Users\siriluck.rattanapong\source\repos\UName\bin\Debug\net8.0-windows\UName.runtimeconfig.json
+C:\Users\siriluck.rattanapong\source\repos\UName\bin\Debug\net8.0-windows\UName.dll
+C:\Users\siriluck.rattanapong\source\repos\UName\bin\Debug\net8.0-windows\UName.pdb
+C:\Users\siriluck.rattanapong\source\repos\UName\obj\Debug\net8.0-windows\UName.Form1.resources
+C:\Users\siriluck.rattanapong\source\repos\UName\obj\Debug\net8.0-windows\UName.csproj.GenerateResource.cache
+C:\Users\siriluck.rattanapong\source\repos\UName\obj\Debug\net8.0-windows\UName.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\siriluck.rattanapong\source\repos\UName\obj\Debug\net8.0-windows\UName.AssemblyInfoInputs.cache
+C:\Users\siriluck.rattanapong\source\repos\UName\obj\Debug\net8.0-windows\UName.AssemblyInfo.cs
+C:\Users\siriluck.rattanapong\source\repos\UName\obj\Debug\net8.0-windows\UName.csproj.CoreCompileInputs.cache
+C:\Users\siriluck.rattanapong\source\repos\UName\obj\Debug\net8.0-windows\UName.dll
+C:\Users\siriluck.rattanapong\source\repos\UName\obj\Debug\net8.0-windows\refint\UName.dll
+C:\Users\siriluck.rattanapong\source\repos\UName\obj\Debug\net8.0-windows\UName.pdb
+C:\Users\siriluck.rattanapong\source\repos\UName\obj\Debug\net8.0-windows\UName.genruntimeconfig.cache
+C:\Users\siriluck.rattanapong\source\repos\UName\obj\Debug\net8.0-windows\ref\UName.dll
