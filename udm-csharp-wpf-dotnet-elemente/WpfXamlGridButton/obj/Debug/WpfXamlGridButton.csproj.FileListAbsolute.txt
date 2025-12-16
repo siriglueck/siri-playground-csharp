@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\siri-csharp-playground\udm-csharp-wpf-dotnet-elemente\WpfXamlGridButton\bin\Debug\WpfXamlGridButton.exe.config
+C:\Users\Admin\source\repos\siri-csharp-playground\udm-csharp-wpf-dotnet-elemente\WpfXamlGridButton\bin\Debug\WpfXamlGridButton.exe
+C:\Users\Admin\source\repos\siri-csharp-playground\udm-csharp-wpf-dotnet-elemente\WpfXamlGridButton\bin\Debug\WpfXamlGridButton.pdb
+C:\Users\Admin\source\repos\siri-csharp-playground\udm-csharp-wpf-dotnet-elemente\WpfXamlGridButton\obj\Debug\WpfXamlGridButton.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\siri-csharp-playground\udm-csharp-wpf-dotnet-elemente\WpfXamlGridButton\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\source\repos\siri-csharp-playground\udm-csharp-wpf-dotnet-elemente\WpfXamlGridButton\obj\Debug\App.g.cs
+C:\Users\Admin\source\repos\siri-csharp-playground\udm-csharp-wpf-dotnet-elemente\WpfXamlGridButton\obj\Debug\WpfXamlGridButton_MarkupCompile.cache
+C:\Users\Admin\source\repos\siri-csharp-playground\udm-csharp-wpf-dotnet-elemente\WpfXamlGridButton\obj\Debug\WpfXamlGridButton_MarkupCompile.lref
+C:\Users\Admin\source\repos\siri-csharp-playground\udm-csharp-wpf-dotnet-elemente\WpfXamlGridButton\obj\Debug\MainWindow.baml
+C:\Users\Admin\source\repos\siri-csharp-playground\udm-csharp-wpf-dotnet-elemente\WpfXamlGridButton\obj\Debug\WpfXamlGridButton.g.resources
+C:\Users\Admin\source\repos\siri-csharp-playground\udm-csharp-wpf-dotnet-elemente\WpfXamlGridButton\obj\Debug\WpfXamlGridButton.Properties.Resources.resources
+C:\Users\Admin\source\repos\siri-csharp-playground\udm-csharp-wpf-dotnet-elemente\WpfXamlGridButton\obj\Debug\WpfXamlGridButton.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\siri-csharp-playground\udm-csharp-wpf-dotnet-elemente\WpfXamlGridButton\obj\Debug\WpfXamlGridButton.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\siri-csharp-playground\udm-csharp-wpf-dotnet-elemente\WpfXamlGridButton\obj\Debug\WpfXamlGridButton.exe
+C:\Users\Admin\source\repos\siri-csharp-playground\udm-csharp-wpf-dotnet-elemente\WpfXamlGridButton\obj\Debug\WpfXamlGridButton.pdb
