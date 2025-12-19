@@ -30,6 +30,7 @@ namespace WpfZooManager
             string connectionString = ConfigurationManager.ConnectionStrings["WpfZooManager.Properties.Settings.SQLEXPRESSConnectionString"].ConnectionString;
             sqlConnection = new SqlConnection(connectionString);
             ShowZoos();
+            ShowAllAnimals();
         }
 
         public void ShowZoos()
@@ -87,6 +88,31 @@ namespace WpfZooManager
         private void listZoos_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             ShowAssociatedAnimals();
+        }
+
+        public void ShowAllAnimals()
+        {
+            try
+            {
+                string query = "SELECT * FROM Animal";
+                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(query, sqlConnection);
+
+                using (sqlDataAdapter)
+                {
+                    DataTable animalTable = new DataTable();
+                    sqlDataAdapter.Fill(animalTable);
+                    // Which Information from the table should be displayed in the ListBox
+                    listAnimals.DisplayMemberPath = "Name";
+                    // Which Value should be used behind the scenes
+                    listAnimals.SelectedValuePath = "Id";
+                    listAnimals.ItemsSource = animalTable.DefaultView;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+
+            }
         }
     }
 }
