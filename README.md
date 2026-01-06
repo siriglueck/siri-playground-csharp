@@ -31,6 +31,7 @@ This repository contains C# projects using various .NET technologies, including:
 - [ ] **Entity Framework Core** (Database access)
 - [x] **LINQ** (Language Integrated Query)
 - [x] **WPF / Windows Forms** (Desktop applications)
+- [x] **.NET MAUI** (Cross-platform mobile and desktop apps)
 - [ ] **Blazor** (Web UI)
 - [ ] **xUnit / NUnit / MSTest** (Testing frameworks)
 - [ ] **Dapper, SignalR, and other libraries**
