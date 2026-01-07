@@ -1,0 +1,26 @@
+﻿@model Kategorie
+
+<h2>Kategorie bearbeiten</h2>
+
+<form method="post">
+    <input type="hidden" name="Id" value="@Model.Id" />
+
+    <div>
+        <label>Titel</label><br />
+        <input name="Title" value="@Model.Title" required />
+    </div>
+
+    <div>
+        <label>Beschreibung</label><br />
+        <textarea name="Description">@Model.Description</textarea>
+    </div>
+
+    <div>
+        <label>Farbe</label><br />
+        <input type="color" name="Color" value="@Model.Color" />
+    </div>
+
+    <br />
+    <button type="submit">Speichern</button>
+    <a asp-action="Index">Abbrechen</a>
+</form>
