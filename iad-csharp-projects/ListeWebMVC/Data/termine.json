@@ -35,9 +35,9 @@
     "StartDate": "2026-01-15T15:10:00",
     "DurationMinutes": 30,
     "Location": "Rewe am Anger",
-    "ContactPerson": "",
-    "Description": "",
-    "CategoryId": "00000000-0000-0000-0000-000000000000"
+    "ContactPerson": "a",
+    "Description": "a",
+    "CategoryId": "859f2e58-e357-4635-8d5a-b7613bca500a"
   },
   {
     "Id": "d6a95a04-c3b0-4883-9d60-67e51934b7ed",

@@ -101,3 +101,4 @@ C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\obj
 C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\obj\Debug\net10.0\ref\ListeWebMVC.dll
 C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\obj\Debug\net10.0\compressed\lszyafgii0-{0}-dzthz1nlqq-dzthz1nlqq.gz
 C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\obj\Debug\net10.0\compressed\08piibtzte-{0}-g470yley4x-g470yley4x.gz
+C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\obj\Debug\net10.0\compressed\0hnald2ni3-{0}-uwzqd8hyum-uwzqd8hyum.gz

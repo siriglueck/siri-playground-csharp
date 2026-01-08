@@ -17,6 +17,7 @@
             <th>Ort</th>
             <th>Kategorie</th>
             <th>Aktionen</th>
+            <th>Beschreibung</th>
         </tr>
     </thead>
     <tbody>
@@ -47,7 +48,34 @@
                     <a asp-action="Edit" asp-route-id="@t.Id">Bearbeiten</a>
                     <a asp-action="Delete" asp-route-id="@t.Id">Löschen</a>
                 </td>
+                <td>
+                    <button type="button" class="toggle-desc-btn" data-id="@t.Id" style="border: medium none;background: none repeat scroll 0 0 transparent;">
+                        <img src="~/images/expand-icon.svg" asp-append-version="true" alt="Logo" height="32" width="32" style="margin:0 10px;" />
+                    </button>
+                </td>
+            </tr>
+            <tr id="desc-@t.Id" class="description-row" style="display:none;">
+                <td colspan="7" style="background-color: #f5f5f5;">: : @t.Description</td>
             </tr>
         }
     </tbody>
 </table>
+
+@section Scripts {
+    <script>
+        // Add toggle functionality
+        document.querySelectorAll('.toggle-desc-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                const id = button.getAttribute('data-id');
+                const descRow = document.getElementById('desc-' + id);
+                if (descRow.style.display === 'none') {
+                    descRow.style.display = 'table-row';
+                    // button.textContent = 'Verbergen';
+                } else {
+                    descRow.style.display = 'none';
+                    // button.textContent = 'Anzeigen';
+                }
+            });
+        });
+    </script>
+}
