@@ -1,5 +1,7 @@
-wwwroot\images\list-icon.svg
+wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\list-icon.svg
+wwwroot\images\list-illus.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -61,8 +63,6 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\site.css
-wwwroot\images\list-illus.jpg
 C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\wwwroot\images\list-icon.svg
 C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\wwwroot\favicon.ico
 C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\wwwroot\js\site.js

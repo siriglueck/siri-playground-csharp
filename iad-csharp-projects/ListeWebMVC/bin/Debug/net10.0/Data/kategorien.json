@@ -9,7 +9,7 @@
     "Id": "22222222-2222-2222-2222-222222222222",
     "Title": "Familie",
     "Description": "Familienbezogene Termine und Aufgaben",
-    "Color": "#32cd32"
+    "Color": "#ffce1f"
   },
   {
     "Id": "33333333-3333-3333-3333-333333333333",
@@ -22,5 +22,11 @@
     "Title": "Studium",
     "Description": "Lernplan",
     "Color": "#ff5cd3"
+  },
+  {
+    "Id": "dd3a01bd-7d73-45ee-939e-e3ae6851cbef",
+    "Title": "Gesundheit",
+    "Description": "alle Aspekte der Gesundheit ",
+    "Color": "#72ee87"
   }
 ]

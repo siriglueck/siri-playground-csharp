@@ -15,17 +15,34 @@
             <th>Starttermin</th>
             <th>Dauer (Minuten)</th>
             <th>Ort</th>
+            <th>Kategorie</th>
             <th>Aktionen</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var t in Model)
         {
+            var category = ViewBag.KategorienMap.ContainsKey(t.CategoryId)
+            ? ViewBag.KategorienMap[t.CategoryId]
+            : null;
+
             <tr>
                 <td>@t.Title</td>
-                <td>@t.StartDate</td>
+                <td>@t.StartDate.ToString("dd.MM.yyyy HH:mm")</td>
                 <td>@t.DurationMinutes</td>
                 <td>@t.Location</td>
+                <td>
+                    @if (category != null)
+                    {
+                        <span style="display:inline-block;width:24px;height:16px;background:@category.Color;border:1px solid #ccc;"></span>
+                            @category.Title
+          
+                    }
+                    else
+                    {
+                        <span>—</span>
+                    }
+                </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@t.Id">Bearbeiten</a>
                     <a asp-action="Delete" asp-route-id="@t.Id">Löschen</a>

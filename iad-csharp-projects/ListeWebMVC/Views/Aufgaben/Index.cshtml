@@ -10,16 +10,33 @@
             <th>Titel</th>
             <th>Von</th>
             <th>Bis</th>
+            <th>Kategorie</th>
             <th>Aktionen</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var a in Model)
         {
+            var category = ViewBag.KategorienMap.ContainsKey(a.CategoryId)
+            ? ViewBag.KategorienMap[a.CategoryId]
+            : null;
+
             <tr>
                 <td>@a.Title</td>
                 <td>@a.FromDate.ToString("dd.MM.yyyy")</td>
                 <td>@a.ToDate.ToString("dd.MM.yyyy")</td>
+                <td>
+                    @if (category != null)
+                    {
+                        <span style="display:inline-block;width:24px;height:16px;background:@category.Color;border:1px solid #ccc;"></span>
+                        @category.Title
+
+                    }
+                    else
+                    {
+                        <span>—</span>
+                    }
+                </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@a.Id">Bearbeiten</a>
                     <a asp-action="Delete" asp-route-id="@a.Id">Löschen</a>

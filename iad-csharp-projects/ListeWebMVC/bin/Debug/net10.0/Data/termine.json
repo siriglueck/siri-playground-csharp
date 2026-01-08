@@ -7,7 +7,7 @@
     "Location": "B\u00FCro Berlin",
     "ContactPerson": "Herr Schneider",
     "Description": "Besprechung des aktuellen Projektstands",
-    "CategoryId": "11111111-1111-1111-1111-111111111111"
+    "CategoryId": "dd3a01bd-7d73-45ee-939e-e3ae6851cbef"
   },
   {
     "Id": "bbbbbbb2-bbbb-bbbb-bbbb-bbbbbbbbbbb2",
@@ -38,5 +38,15 @@
     "ContactPerson": "",
     "Description": "",
     "CategoryId": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": "d6a95a04-c3b0-4883-9d60-67e51934b7ed",
+    "Title": "Pr\u00FCfungsvorbereitung",
+    "StartDate": "2026-01-08T11:22:00",
+    "DurationMinutes": 180,
+    "Location": "Schule",
+    "ContactPerson": "Herr Schmidt",
+    "Description": "Sei p\u00FCnktlich",
+    "CategoryId": "0215f832-aa88-4f89-9d28-7391729d12a2"
   }
 ]
