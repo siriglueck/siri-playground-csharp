@@ -6,16 +6,16 @@
 
 <form method="post">
     <label>Titel</label>
-    <input name="Title" />
+    <input name="Title" required/>
 
     <label>Starttermin</label>
-    <input type="datetime-local" name="StartDate" />
+    <input type="datetime-local" name="StartDate" required />
 
     <label>Dauer in Minuten</label>
-    <input type="number" name="DurationMinutes" />
+    <input type="number" name="DurationMinutes" required />
 
     <label>Ort</label>
-    <input name="Location" />
+    <input name="Location" required />
 
     <button type="submit">Speichern</button>
 </form>

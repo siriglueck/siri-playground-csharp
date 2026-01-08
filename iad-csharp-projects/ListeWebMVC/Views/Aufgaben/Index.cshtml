@@ -4,23 +4,27 @@
 
 <a asp-action="Create">Neue Aufgabe erstellen</a>
 
-<table border="1">
-    <tr>
-        <th>Titel</th>
-        <th>Von</th>
-        <th>Bis</th>
-        <th>Aktionen</th>
-    </tr>
-    @foreach (var a in Model)
-    {
+<table>
+    <thead>
         <tr>
-            <td>@a.Title</td>
-            <td>@a.FromDate.ToString("dd.MM.yyyy")</td>
-            <td>@a.ToDate.ToString("dd.MM.yyyy")</td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@a.Id">Bearbeiten</a>
-                <a asp-action="Delete" asp-route-id="@a.Id">Löschen</a>
-            </td>
+            <th>Titel</th>
+            <th>Von</th>
+            <th>Bis</th>
+            <th>Aktionen</th>
         </tr>
-    }
+    </thead>
+    <tbody>
+        @foreach (var a in Model)
+        {
+            <tr>
+                <td>@a.Title</td>
+                <td>@a.FromDate.ToString("dd.MM.yyyy")</td>
+                <td>@a.ToDate.ToString("dd.MM.yyyy")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@a.Id">Bearbeiten</a>
+                    <a asp-action="Delete" asp-route-id="@a.Id">Löschen</a>
+                </td>
+            </tr>
+        }
+    </tbody>
 </table>

@@ -25,7 +25,6 @@ C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\obj
 C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\obj\Debug\net10.0\scopedcss\bundle\ListeWebMVC.styles.css
 C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\obj\Debug\net10.0\scopedcss\projectbundle\ListeWebMVC.bundle.scp.css
-C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\obj\Debug\net10.0\compressed\08piibtzte-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\obj\Debug\net10.0\compressed\9by1dpyuoy-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\obj\Debug\net10.0\compressed\78b2akpr4f-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\obj\Debug\net10.0\compressed\cz2sn2idu6-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -100,3 +99,5 @@ C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\obj
 C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\obj\Debug\net10.0\ListeWebMVC.pdb
 C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\obj\Debug\net10.0\ListeWebMVC.genruntimeconfig.cache
 C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\obj\Debug\net10.0\ref\ListeWebMVC.dll
+C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\obj\Debug\net10.0\compressed\lszyafgii0-{0}-dzthz1nlqq-dzthz1nlqq.gz
+C:\Users\Admin\source\siri-playground-csharp\iad-csharp-projects\ListeWebMVC\obj\Debug\net10.0\compressed\08piibtzte-{0}-g470yley4x-g470yley4x.gz

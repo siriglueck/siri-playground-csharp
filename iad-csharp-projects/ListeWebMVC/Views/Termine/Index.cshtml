@@ -9,24 +9,28 @@
 <a asp-action="Create">Neuen Termin erstellen</a>
 
 <table>
-    <tr>
-        <th>Titel</th>
-        <th>Starttermin</th>
-        <th>Dauer (Minuten)</th>
-        <th>Ort</th>
-        <th>Aktionen</th>
-    </tr>
-    @foreach (var t in Model)
-    {
+    <thead>
         <tr>
-            <td>@t.Title</td>
-            <td>@t.StartDate</td>
-            <td>@t.DurationMinutes</td>
-            <td>@t.Location</td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@t.Id">Bearbeiten</a>
-                <a asp-action="Delete" asp-route-id="@t.Id">Löschen</a>
-            </td>
+            <th>Titel</th>
+            <th>Starttermin</th>
+            <th>Dauer (Minuten)</th>
+            <th>Ort</th>
+            <th>Aktionen</th>
         </tr>
-    }
+    </thead>
+    <tbody>
+        @foreach (var t in Model)
+        {
+            <tr>
+                <td>@t.Title</td>
+                <td>@t.StartDate</td>
+                <td>@t.DurationMinutes</td>
+                <td>@t.Location</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@t.Id">Bearbeiten</a>
+                    <a asp-action="Delete" asp-route-id="@t.Id">Löschen</a>
+                </td>
+            </tr>
+        }
+    </tbody>
 </table>

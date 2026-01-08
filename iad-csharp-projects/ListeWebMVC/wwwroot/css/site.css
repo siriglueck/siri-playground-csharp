@@ -1,31 +1,642 @@
+/* ==========================================================================
+   Base Styles & Reset
+   ========================================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
 html {
-  font-size: 14px;
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+    html {
+        font-size: 16px;
+    }
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+/* ==========================================================================
+   Navigation
+   ========================================================================== */
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0.75rem 1rem;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #0066cc !important;
+    transition: color 0.3s ease;
+}
+
+    .navbar-brand:hover {
+        color: #0052a3 !important;
+    }
+
+.nav-link {
+    font-weight: 500;
+    padding: 0.5rem 1rem !important;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    margin: 0 0.25rem;
+}
+
+    .nav-link:hover {
+        background-color: #f0f0f0;
+        color: #0066cc !important;
+    }
+
+    .nav-link.active {
+        background-color: #0066cc;
+        color: white !important;
+    }
+
+/* ==========================================================================
+   Container & Main Content
+   ========================================================================== */
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    min-height: calc(100vh - 250px);
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 3px solid #0066cc;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    border: none !important;
+}
+
+    table thead {
+        background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
+    }
+
+    table th {
+        padding: 1rem;
+        text-align: left;
+        font-weight: 600;
+        color: white;
+        text-transform: uppercase;
+        font-size: 0.875rem;
+        letter-spacing: 0.5px;
+        border: none !important;
+    }
+
+    table td {
+        padding: 1rem;
+        border-bottom: 1px solid #e9ecef;
+        color: #495057;
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    table tr {
+        transition: background-color 0.2s ease;
+    }
+
+    table tbody tr:hover {
+        background-color: #f8f9fa;
+    }
+
+    table tbody tr:last-child td {
+        border-bottom: none;
+    }
+
+/* ==========================================================================
+   Buttons & Links
+   ========================================================================== */
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+    a:hover {
+        color: #0052a3;
+        text-decoration: underline;
+    }
+
+/* Action buttons in tables */
+table td a {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    margin-right: 0.5rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+    table td a[asp-action="Edit"],
+    table td a[href*="Edit"] {
+        background-color: #0088ff;
+        color: white;
+    }
+
+        table td a[asp-action="Edit"]:hover,
+        table td a[href*="Edit"]:hover {
+            background-color: #005fb3;
+            text-decoration: none;
+            transform: translateY(-2px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+    table td a[asp-action="Delete"],
+    table td a[href*="Delete"] {
+        background-color: #dc3545;
+        color: white;
+    }
+
+        table td a[asp-action="Delete"]:hover,
+        table td a[href*="Delete"]:hover {
+            background-color: #c82333;
+            text-decoration: none;
+            transform: translateY(-2px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+    table td a[asp-action="Details"],
+    table td a[href*="Details"] {
+        background-color: #17a2b8;
+        color: white;
+    }
+
+        table td a[asp-action="Details"]:hover,
+        table td a[href*="Details"]:hover {
+            background-color: #138496;
+            text-decoration: none;
+            transform: translateY(-2px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+/* Create/Add new item link */
+a[asp-action="Create"],
+a[href*="Create"] {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #0066cc;
+    color: white !important;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 102, 204, 0.3);
+    margin-bottom: 1.5rem;
+}
+
+    a[asp-action="Create"]:hover,
+    a[href*="Create"]:hover {
+        background-color: #0052a3;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 102, 204, 0.4);
+        text-decoration: none;
+    }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-top: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Labels */
+form label {
+    display: block;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+/* All Input Types */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="number"],
+form input[type="date"],
+form input[type="datetime-local"],
+form input[type="time"],
+form input[type="url"],
+form input[type="tel"],
+form select,
+form textarea,
+.form-control {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e9ecef;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #495057;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+    form input[type="text"]:focus,
+    form input[type="email"]:focus,
+    form input[type="password"]:focus,
+    form input[type="number"]:focus,
+    form input[type="date"]:focus,
+    form input[type="datetime-local"]:focus,
+    form input[type="time"]:focus,
+    form input[type="url"]:focus,
+    form input[type="tel"]:focus,
+    form select:focus,
+    form textarea:focus,
+    .form-control:focus {
+        border-color: #0066cc;
+        box-shadow: 0 0 0 0.2rem rgba(0, 102, 204, 0.25);
+        outline: none;
+        background-color: #f8f9ff;
+    }
+
+/* Textarea specific */
+form textarea,
+textarea.form-control {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Select specific */
+form select,
+select.form-control {
+    cursor: pointer;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23333' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 12px;
+    padding-right: 2.5rem;
+    appearance: none;
+}
+
+/* Number Input - Remove Spinners for cleaner look (optional) */
+form input[type="number"]::-webkit-inner-spin-button,
+form input[type="number"]::-webkit-outer-spin-button {
+    opacity: 1;
+}
+
+/* Checkbox and Radio */
+form input[type="checkbox"],
+form input[type="radio"] {
+    width: auto;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+    form input[type="checkbox"] + label,
+    form input[type="radio"] + label {
+        display: inline;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+/* Buttons */
+form button,
+.btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+    /* Submit Button (default) */
+    form button[type="submit"],
+    form input[type="submit"],
+    .btn-primary {
+        background-color: #0066cc;
+        color: white;
+        margin-right: 0.5rem;
+    }
+
+        form button[type="submit"]:hover,
+        form input[type="submit"]:hover,
+        .btn-primary:hover {
+            background-color: #0052a3;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 102, 204, 0.3);
+        }
+
+    /* Cancel/Back Button */
+    form button[type="button"],
+    .btn-secondary {
+        background-color: #6c757d;
+        color: white;
+    }
+
+        form button[type="button"]:hover,
+        .btn-secondary:hover {
+            background-color: #5a6268;
+            transform: translateY(-2px);
+        }
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+    .btn-success:hover {
+        background-color: #218838;
+        transform: translateY(-2px);
+    }
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+    .btn-danger:hover {
+        background-color: #c82333;
+        transform: translateY(-2px);
+    }
+
+/* Button Group */
+.form-actions,
+form .button-group {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e9ecef;
+    display: flex;
+    gap: 0.75rem;
+}
+
+/* Disabled State */
+form input:disabled,
+form select:disabled,
+form textarea:disabled,
+form button:disabled,
+.form-control:disabled {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/* Placeholder Styling */
+form input::placeholder,
+form textarea::placeholder,
+.form-control::placeholder {
+    color: #adb5bd;
+    opacity: 1;
+}
+
+/* Required Field Indicator */
+form label.required::after,
+form label[required]::after {
+    content: " *";
+    color: #dc3545;
+    font-weight: bold;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+}
+
+    .footer .container {
+        background-color: transparent;
+        box-shadow: none;
+        padding: 0 15px;
+        margin-top: 0;
+    }
+
+/* ==========================================================================
+   Utility Classes
+   ========================================================================== */
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.p-3 {
+    padding: 1rem;
+}
+
+/* ==========================================================================
+   Alerts & Messages
+   ========================================================================== */
+
+.alert {
+    padding: 1rem 1.5rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    border: none;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+/* ==========================================================================
+   Validation
+   ========================================================================== */
+
+.field-validation-error {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    display: block;
+}
+
+.validation-summary-errors {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+    .validation-summary-errors ul {
+        margin: 0;
+        padding-left: 1.5rem;
+        color: #721c24;
+    }
+
+.input-validation-error {
+    border-color: #dc3545 !important;
+}
+
+/* ==========================================================================
+   Responsive Design
+   ========================================================================== */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    table {
+        font-size: 0.875rem;
+    }
+
+        table th,
+        table td {
+            padding: 0.75rem 0.5rem;
+        }
+
+            table td a {
+                display: block;
+                margin-bottom: 0.5rem;
+                text-align: center;
+            }
+
+    .navbar-collapse {
+        background-color: white;
+        padding: 1rem;
+        margin-top: 0.5rem;
+        border-radius: 6px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* ==========================================================================
+   Loading & Animation
+   ========================================================================== */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease;
+}
+
+/* ==========================================================================
+   Card Style (Optional for future use)
+   ========================================================================== */
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
+    color: white;
+    font-weight: 600;
+    border-radius: 8px 8px 0 0 !important;
+    padding: 1rem 1.5rem;
+}
+
+.card-body {
+    padding: 1.5rem;
 }

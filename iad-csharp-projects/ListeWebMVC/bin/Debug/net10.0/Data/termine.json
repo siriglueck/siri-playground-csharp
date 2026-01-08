@@ -4,7 +4,7 @@
     "Title": "Team Meeting",
     "StartDate": "2026-01-08T10:00:00",
     "DurationMinutes": 60,
-    "Location": "Büro Berlin",
+    "Location": "B\u00FCro Berlin",
     "ContactPerson": "Herr Schneider",
     "Description": "Besprechung des aktuellen Projektstands",
     "CategoryId": "11111111-1111-1111-1111-111111111111"
@@ -14,19 +14,29 @@
     "Title": "Familienessen",
     "StartDate": "2026-01-09T18:00:00",
     "DurationMinutes": 120,
-    "Location": "Restaurant München",
+    "Location": "Restaurant M\u00FCnchen",
     "ContactPerson": "Mama",
     "Description": "Gemeinsames Abendessen mit der Familie",
     "CategoryId": "22222222-2222-2222-2222-222222222222"
   },
   {
     "Id": "bbbbbbb3-bbbb-bbbb-bbbb-bbbbbbbbbbb3",
-    "Title": "Fußballtraining",
+    "Title": "Fu\u00DFballtraining",
     "StartDate": "2026-01-11T19:00:00",
     "DurationMinutes": 90,
     "Location": "Sportplatz",
     "ContactPerson": "Trainer Max",
-    "Description": "Wöchentliches Mannschaftstraining",
+    "Description": "W\uFFFDchentliches Mannschaftstraining",
     "CategoryId": "33333333-3333-3333-3333-333333333333"
+  },
+  {
+    "Id": "a1fa1092-ee2e-4746-b811-bbbf347ec91c",
+    "Title": "Einkaufen f\u00FCr Ebby",
+    "StartDate": "2026-01-15T15:10:00",
+    "DurationMinutes": 30,
+    "Location": "Rewe am Anger",
+    "ContactPerson": "",
+    "Description": "",
+    "CategoryId": "00000000-0000-0000-0000-000000000000"
   }
 ]
