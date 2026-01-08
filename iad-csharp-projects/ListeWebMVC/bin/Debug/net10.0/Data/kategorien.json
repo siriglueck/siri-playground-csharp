@@ -16,5 +16,11 @@
     "Title": "Hobby",
     "Description": "Freizeit und Hobbys",
     "Color": "#ffa500"
+  },
+  {
+    "Id": "0215f832-aa88-4f89-9d28-7391729d12a2",
+    "Title": "Studium",
+    "Description": "Lernplan",
+    "Color": "#ff5cd3"
   }
 ]

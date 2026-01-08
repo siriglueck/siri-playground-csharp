@@ -1,0 +1,51 @@
+﻿@model ListeWebJsonMVC.Models.Aufgabe
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@{
+    ViewData["Title"] = "Neue Aufgabe erstellen";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label asp-for="Title"></label>
+        <input asp-for="Title" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="FromDate"></label>
+        <input asp-for="FromDate" type="date" />
+        <span asp-validation-for="FromDate" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="ToDate"></label>
+        <input asp-for="ToDate" type="date" />
+        <span asp-validation-for="ToDate" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="CategoryId"></label>
+        <select asp-for="CategoryId" asp-items="ViewBag.Categories">
+            <option value="">-- Kategorie wählen --</option>
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+
+    <button type="submit">Speichern</button>
+    <a asp-action="Index">Abbrechen</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

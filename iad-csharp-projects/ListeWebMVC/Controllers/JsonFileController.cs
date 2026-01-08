@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using ListeWebJsonMVC.Models;
+using System.Text.Json;
 
 namespace ListeWebJsonMVC.Controllers
 {
@@ -27,6 +28,19 @@ namespace ListeWebJsonMVC.Controllers
                 WriteIndented = true
             });
             File.WriteAllText(_filePath, json);
+        }
+
+        public List<Kategorie> GetCategories()
+        {
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Data", "kategorien.json");
+
+            if (!System.IO.File.Exists(filePath))
+                return new List<Kategorie>();
+
+            var json = System.IO.File.ReadAllText(filePath);
+            var categories = JsonSerializer.Deserialize<List<Kategorie>>(json);
+
+            return categories ?? new List<Kategorie>();
         }
     }
 }
